@@ -24,3 +24,7 @@ describe_pet(animal_type='hamster', pet_name='harry')
 describe_pet(pet_name='harry', animal_type='hamster')
 # 默认值pet_name='willie'生效
 describe_pet(animal_type='dog')
+
+# 函数input() 让程序暂停运行，等待用户输入一些文本。获取用户输入后，Python将其存储在一个变量中，以方便你使用
+message = input("Tell me something, and I will repeat it back to you: ")
+print(message)
