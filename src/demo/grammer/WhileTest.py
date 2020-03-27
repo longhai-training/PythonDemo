@@ -4,7 +4,7 @@ while current_number <= 5:
     current_number += 1
 
 prompt = "\nTell me something, and I will repeat it back to you:"
-prompt += "\nEnter 'quit' to end the program. "
+prompt += "\nEnter 'quit' to end the project. "
 message = ""
 while message != 'quit':
     message = input(prompt)
